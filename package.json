@@ -1,0 +1,16 @@
+{
+  "name": "@nocobase/plugin-global-search",
+  "displayName": "Global Search",
+  "displayName.zh-CN": "全局搜索",
+  "description": "Cross-collection global search for the NocoBase admin UI",
+  "description.zh-CN": "NocoBase 管理界面的跨集合全局搜索",
+  "version": "2.0.0",
+  "main": "dist/server/index.js",
+  "peerDependencies": {
+    "@nocobase/client": "2.x",
+    "@nocobase/server": "2.x",
+    "@nocobase/database": "2.x",
+    "@nocobase/test": "2.x"
+  },
+  "license": "Apache-2.0"
+}

@@ -1,3 +1,4 @@
+import { Context, Next } from '@nocobase/actions';
 declare const _default: {
     name: string;
     actions: {

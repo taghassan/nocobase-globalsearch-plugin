@@ -4,6 +4,7 @@ import { GlobalSearchButton } from './components/GlobalSearchButton';
 
 export const GlobalSearchProvider: React.FC<{ children?: React.ReactNode }> = (props) => {
   return (
+    // @ts-ignore
     <PinnedPluginListProvider
       items={{
         globalSearch: { order: 100, component: 'GlobalSearchButton', pin: true, snippet: '*' },

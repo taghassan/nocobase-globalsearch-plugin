@@ -57,6 +57,7 @@ const spec = {
           },
         },
         'x-nocobase-method-guard': 'لا يتحقق الـ handler من الطريقة؛ GET هو الاستخدام المقصود مع q في query.',
+        tags: ['Global Search'],
       },
     },
   },
@@ -69,6 +70,12 @@ const spec = {
       },
     },
   },
+  tags: [
+    {
+      name: 'Global Search',
+      description: 'البحث الشامل في NocoBase.',
+    },
+  ],
 };
 
 export default spec;
